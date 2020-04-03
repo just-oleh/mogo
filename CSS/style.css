@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1049px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    width: 1049px;
+    margin-top: 30px;
+}
+
+.logo{
+    width: 549px;
+    height: 38px;
+}
+
+.logo a{
+    color: #95E1D3;
+    width: 90px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-family: "adobeinvisfont", "myriadpro-regular", 'Montserrat', sans-serif;
+}
+
+.logo a:hover{
+    color: #F38181;
+    font-size: 40px;
+}
+
+.nav_menu{
+    width: 500px;
+}
+
+.nav_menu ul{
+    margin-top: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_menu ul a{
+    color: #95E1D3;
+    font-family: "adobeinvisfont", "myriadpro-regular", 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav_menu ul a:hover{
+    color: #F38181;
+    border-bottom: 2px solid #F38181;
+}
+
+.title{
+    width: 306px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.title p{
+    font-size: 24px;
+    width: 140px;
+    margin: 0 auto;
+    font-family: 'Kaushan Script', cursive, "adobeinvisfont", "myriadpro-regular";
+    margin-bottom: 20px;
+}
+
+.title h1{
+    font-size: 30px;
+    font-family: "adobeinvisfont", "myriadpro-regular", 'Montserrat', sans-serif;
+}
+
+main{
+    width: 1049px;
+}
+
+.wrapper{
+    width: 1049px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper:first-child{
+    margin: 100px 0 50px 0;
+}
+
+.folder{
+    width: 330px;
+    height: 80px;
+    display: flex;
+}
+
+.folder i{
+    width: 33px;
+    height: 33px;
+    font-size: 33px;
+    color: #95E1D3;
+    margin-right: 20px;
+}
+
+.folder h1{
+    font-size: 16px;
+    font-family: "adobeinvisfont", "myriadpro-regular", 'Montserrat', sans-serif; 
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.folder p{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    font-size: 15px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    width: 949px;
+    margin: 0 auto;
+    text-align: center;
+    height: 39px;
+    margin-top: 70px;
+}
+
+footer{
+    width: 1049px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.img img{
+    width: 330px;
+    height: 430px;
+}
+
+.img h1{
+    font-family: "adobeinvisfont", "myriadpro-regular", 'Montserrat', sans-serif; 
+    color: #333333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.img p{
+    font-family: 'Roboto', sans-serif, "myriadpro-regular", 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 8px;
+}
